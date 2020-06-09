@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flat Website | Blog</title>
+    <link rel="stylesheet" href="style-blog.css"/>
+    
+    <link rel="shortcut icon" href="images/fitnesshub.png" type="image/png">
+
+</head>
+<body>
+    <section class="sec1">
+        <header class="container">
+            <nav>
+                <div class="nav-brand">
+                    <a href="index.html" style="display: flex; align-items: center;">
+                        <img src="images/fitnesshub.png" alt="" width="50">
+                        <div class="txt">Fitness Hub</div>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Blog.html">Designer</a></li>
+                    <li><a href="index.html#workouts">Workouts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                </ul>
+            </nav>
+            <div class="text">
+                <div class="one">HAVE ONE NOTICED</div>
+                <div class="two">Small Details Create The Big Picture</div>
+                <div class="three"><a href="index.html">Go to Home</a> </div>
+            </div>
+            <div class="curve" style="background: url('images/img2grad.jpg');"></div>
+            <div class="overlap" style="background: url('images/designer.png');"></div>
+        </header>
+    </section>
+    <div id="footer" style="text-align: center;"></div>
+<script>
+    var f = document.getElementById('footer');
+    var d = new Date().getFullYear();
+    f.innerHTML = "Copyright&copy; "+ d;
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flat Website | Contact</title>
+    <link rel="stylesheet" href="style-contact.css">
+    
+    <link rel="shortcut icon" href="images/fitnesshub.png" type="image/png">
+
+</head>
+<body>
+    <section class="sec1" style="background: url('images/img1.jpeg');">
+        <header>
+            <nav>
+                <div class="nav-brand">
+                    <a href="index.html" style="display: flex; align-items: center;">
+                        <img src="images/fitnesshub.png" alt="" width="50">
+                        <div class="txt">Fitness Hub</div>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Blog.html" target="_blank">Designer</a></li>
+                    <li><a href="index.html#workouts">Workouts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <div class="subcontainer">
+                    <h3>Contact US</h3>
+                    <input type="text" class="name" placeholder="Name">
+                    <input type="text" class="email" placeholder="Email">
+                    <textarea class="message" id="" cols="30" rows="10" placeholder="Message goes here..."></textarea>
+                    <a href="#" class="btn">Send</a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div id="footer"></div>
+<script>
+    var f = document.getElementById('footer');
+    var d = new Date().getFullYear();
+    f.innerHTML = "Copyright&copy; "+ d;
+</script>
+</body>
+</html>
